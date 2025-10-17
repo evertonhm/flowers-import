@@ -1,0 +1,9 @@
+{
+  "schema": "v1",
+  "produtos": [
+    { "nome": "Freedom 70/80" },
+    { "nome": "Freedom 60" },
+    { "nome": "Freedom 50" },
+    { "nome": "Coloridas" }
+  ]
+}
