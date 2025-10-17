@@ -1,0 +1,11 @@
+{
+  "schema": "v1",
+  "fields": [
+    { "name": "product", "type": "string", "required": true },
+    { "name": "stems", "type": "integer", "required": true },
+    { "name": "rate_usd", "type": "number", "required": true },
+    { "name": "value_usd", "type": "number", "required": true },
+    { "name": "source_file", "type": "string", "required": true }
+  ],
+  "description": "Define os campos mínimos esperados para cada produto extraído dos fornecedores."
+}
