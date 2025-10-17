@@ -1,0 +1,23 @@
+{
+  "schema": "v1",
+  "chave": "nm_product",
+  "regras": [
+    {
+      "match": "FREEDOM 60CM 25ST N PR",
+      "produto": "Freedom 60"
+    },
+    {
+      "match": "FREEDOM 50CM 25ST N PR",
+      "produto": "Freedom 50"
+    },
+    {
+      "match": "FREEDOM 70CM 25ST N PR",
+      "produto": "Freedom 70/80"
+    }
+  ],
+  "default": "Coloridas",
+  "observacoes": [
+    "Se nm_product for nulo/None, ignorar a linha (não classificar).",
+    "Qualquer nm_product fora das regras acima será classificado como 'Coloridas'."
+  ]
+}
