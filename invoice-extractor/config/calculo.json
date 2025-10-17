@@ -1,0 +1,13 @@
+{
+  "schema": "v1",
+  "columns": {
+    "Produto": "product",
+    "Núm. de hastes": "sum(stems)",
+    "Subtotal do invoice": "sum(value_usd)",
+    "Cotação do dólar": "input(cotacao)",
+    "Preço": "Subtotal do invoice * Cotação do dólar",
+    "Custos de operação": "input(ops_costs)",
+    "Total": "(Preço + Custos de operação) / Núm. de hastes"
+  },
+  "description": "Define as fórmulas aplicadas a cada coluna da tabela final."
+}
